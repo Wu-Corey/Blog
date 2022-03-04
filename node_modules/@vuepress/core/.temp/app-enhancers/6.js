@@ -1,0 +1,1 @@
+export { default } from "D:\\Java\\Code\\Blog\\node_modules\\vuepress-plugin-comment\\comment.js"
