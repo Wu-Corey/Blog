@@ -130,7 +130,7 @@ export default {
   data () {
     return {
       hideNavbar: false,
-      isSidebarOpen: true,
+      isSidebarOpen: false,
       showSidebar: false,
       themeMode: 'light',
       showWindowLB: true,

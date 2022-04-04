@@ -9,22 +9,6 @@ import GlobalLayout from "D:\\Java\\Code\\Blog\\node_modules\\@vuepress\\core\\l
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-6658cc04",
-    path: "/archives/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6658cc04").then(next)
-    },
-  },
-  {
-    path: "/archives/index.html",
-    redirect: "/archives/"
-  },
-  {
-    path: "/@pages/archivesPage.html",
-    redirect: "/archives/"
-  },
-  {
     name: "v-d41a74a6",
     path: "/pages/d62038/",
     component: GlobalLayout,
@@ -41,6 +25,82 @@ export const routes = [
     redirect: "/pages/d62038/"
   },
   {
+    name: "v-21ca6fe4",
+    path: "/categories/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-21ca6fe4").then(next)
+    },
+  },
+  {
+    path: "/categories/index.html",
+    redirect: "/categories/"
+  },
+  {
+    path: "/@pages/categoriesPage.html",
+    redirect: "/categories/"
+  },
+  {
+    name: "v-b72d3f20",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b72d3f20").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-0b22e434",
+    path: "/pages/5a87c3/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0b22e434").then(next)
+    },
+  },
+  {
+    path: "/pages/5a87c3/index.html",
+    redirect: "/pages/5a87c3/"
+  },
+  {
+    path: "/技术文章/00.Java/02.集合/01.List/01.List源码.html",
+    redirect: "/pages/5a87c3/"
+  },
+  {
+    name: "v-48b798f9",
+    path: "/pages/b7d0da/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-48b798f9").then(next)
+    },
+  },
+  {
+    path: "/pages/b7d0da/index.html",
+    redirect: "/pages/b7d0da/"
+  },
+  {
+    path: "/技术文章/00.Java/01.JUC/00.AQS.html",
+    redirect: "/pages/b7d0da/"
+  },
+  {
+    name: "v-8eece7d8",
+    path: "/pages/e5bd2a/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8eece7d8").then(next)
+    },
+  },
+  {
+    path: "/pages/e5bd2a/index.html",
+    redirect: "/pages/e5bd2a/"
+  },
+  {
+    path: "/技术文章/00.Java/02.集合/02.HashMap/01.HashMap源码分析.html",
+    redirect: "/pages/e5bd2a/"
+  },
+  {
     name: "v-a1cb17d0",
     path: "/pages/3c3d63/",
     component: GlobalLayout,
@@ -55,6 +115,38 @@ export const routes = [
   {
     path: "/技术文章/06.中间件/01.MQ/00.RabbitMQ 使用总结.html",
     redirect: "/pages/3c3d63/"
+  },
+  {
+    name: "v-022cb3d7",
+    path: "/pages/049435/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-022cb3d7").then(next)
+    },
+  },
+  {
+    path: "/pages/049435/index.html",
+    redirect: "/pages/049435/"
+  },
+  {
+    path: "/技术文章/00.Java/03.JVM/00.深入理解Java虚拟机读书笔记（一）.html",
+    redirect: "/pages/049435/"
+  },
+  {
+    name: "v-11b5fc3f",
+    path: "/pages/384a37/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-11b5fc3f").then(next)
+    },
+  },
+  {
+    path: "/pages/384a37/index.html",
+    redirect: "/pages/384a37/"
+  },
+  {
+    path: "/技术文章/01.Spring/01.Spring启动流程.html",
+    redirect: "/pages/384a37/"
   },
   {
     name: "v-18f58866",
@@ -89,80 +181,20 @@ export const routes = [
     redirect: "/pages/5bed1d/"
   },
   {
-    name: "v-11b5fc3f",
-    path: "/pages/384a37/",
+    name: "v-6658cc04",
+    path: "/archives/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-11b5fc3f").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6658cc04").then(next)
     },
   },
   {
-    path: "/pages/384a37/index.html",
-    redirect: "/pages/384a37/"
+    path: "/archives/index.html",
+    redirect: "/archives/"
   },
   {
-    path: "/技术文章/01.Spring/01.Spring启动流程.html",
-    redirect: "/pages/384a37/"
-  },
-  {
-    name: "v-0b22e434",
-    path: "/pages/5a87c3/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0b22e434").then(next)
-    },
-  },
-  {
-    path: "/pages/5a87c3/index.html",
-    redirect: "/pages/5a87c3/"
-  },
-  {
-    path: "/技术文章/00.Java/02.集合/01.List/01.List源码.html",
-    redirect: "/pages/5a87c3/"
-  },
-  {
-    name: "v-8eece7d8",
-    path: "/pages/e5bd2a/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-8eece7d8").then(next)
-    },
-  },
-  {
-    path: "/pages/e5bd2a/index.html",
-    redirect: "/pages/e5bd2a/"
-  },
-  {
-    path: "/技术文章/00.Java/02.集合/02.HashMap/01.HashMap源码分析.html",
-    redirect: "/pages/e5bd2a/"
-  },
-  {
-    name: "v-21ca6fe4",
-    path: "/categories/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-21ca6fe4").then(next)
-    },
-  },
-  {
-    path: "/categories/index.html",
-    redirect: "/categories/"
-  },
-  {
-    path: "/@pages/categoriesPage.html",
-    redirect: "/categories/"
-  },
-  {
-    name: "v-b72d3f20",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b72d3f20").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
+    path: "/@pages/archivesPage.html",
+    redirect: "/archives/"
   },
   {
     path: '*',
